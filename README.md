@@ -1,29 +1,21 @@
 # LemonJamsBot
+## my fork of [this](https://github.com/tgcallsjs/LemonJamsBot) repository 
 
-## Setup
+To make this repo compatible with heroku and avoid unnecessary conflicts
+we have to break down this whole project into two different parts and
+deploy as defferent apps so let's get started.
+### Webserver setup
+* deploy this repo in heroku (you can use ```deploy to heroku``` button for easy peasy deployment)
+* after deploying your app turn on the dyno and copy your app url (something like ```http://yourapp.herokuapp.com```)
+* That's it 
 
-- Fill out the `.env`
-  - Copy `example.env` to `.env`
-  - Put in your information
-- Start the userbot
-  - Install dependencies from pip
-    ```shell
-    $ pip install -r requirements.txt
-    ```
-  - Run the userbot
-    ```shell
-    $ python userbot.py
-    ```
-- Start the bot
-  - Install dependencies from npm
-    ```shell
-    $ npm install
-    ```
-  - Build TypeScript
-    ```shell
-    $ npm run build
-    ```
-  - Run the bot
-    ```shell
-    $ npm start
-    ```
+### Bot
+Here is the place where this repo (which you are reading this readme) comes into picture
+* As usual hit deploy to heroku button
+* Enter bot token and websocket url (which we got from the above step)
+* click deploy and sit back until docker finishes the build
+* turn on your dyno (if its off)
+* if everything goes fine you should see something like ```@username is running...``` in the log
+* Voila!
+
+
