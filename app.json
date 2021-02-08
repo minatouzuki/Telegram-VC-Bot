@@ -1,0 +1,15 @@
+{
+    "name":"LemonJamsBot",
+    "description":"An example bot using tgcallsjs",
+    "env":{
+        "BOT_TOKEN":{
+            "description":"Bot token from @botfather",
+            "value":""
+        },
+        "WEBSOCKET_URL":{
+            "description":"websocket url from LemonJamServer",
+            "value": "http://appname.herokuapp.com"
+        }
+    },
+    "stack":"container"
+}
