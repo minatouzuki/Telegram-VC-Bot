@@ -1,7 +1,7 @@
 # Telegram-VC-Bot
 ## Credits
- •For heroku support [CW4RR10R](https://github.com/CW4RR10R)
- •Orginal repo credits goes to repo below 
+  •For heroku support [CW4RR10R](https://github.com/CW4RR10R)
+# •Orginal repo credits goes to repo below 
 ### An Fork of [this](https://github.com/tgcallsjs/LemonJamsBot) repository 
   
 
