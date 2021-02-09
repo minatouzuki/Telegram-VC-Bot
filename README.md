@@ -1,5 +1,6 @@
-# LemonJamsBot - Heroku
+# Telegram-VC-Bot
 ## My fork of [this](https://github.com/tgcallsjs/LemonJamsBot) repository 
+### For Heroku support! Credits goes to 
 
 To make this repo compatible with heroku and avoid unnecessary conflicts
 we have to break down this whole project into two different parts and
